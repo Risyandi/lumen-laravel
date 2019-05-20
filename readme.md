@@ -1,21 +1,17 @@
-# Lumen PHP Framework
+# CRUD API's Menggunakan Micro Framework Lumen
+Selamat membaca cara membuat CRUD API's menggunakan kerangka kerja lumen. sebelum memulai mencoba membuat nya, ada baiknya untuk memastikan prasyaratan ini terpenuhi.
+- PHP versi 5.4.
+- Composer.
+- Framework Lumen versi 5.4.
+- Database mySQL.
+- Postman, untuk menguji atau mengetest API's yang dibuat.
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
-
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+setelah prasyarat terpenuhi, selanjutnya anda bisa memulai membaca dokumentasi berikut ini:
+- [bagaimana menginstall composer](https://google.com)
+- [bagaimana cara menginstall lumen](https://google.com)
+- [bagaimana mengkonfigurasi file .env](https://google.com) 
+- [bagaimana membuat controller](https://google.com)
+- [bagaimana membuat model](https://google.com)
+- [bagaimana membuat database](https://google.com)
+- [bagaimana membuat tabel menggunakan proses migration](https://google.com)
+- [bagaimana menkonfigurasi routes](https://google.com)
