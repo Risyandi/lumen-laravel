@@ -7,11 +7,14 @@ Selamat membaca cara membuat CRUD API's menggunakan kerangka kerja lumen. sebelu
 - Postman, untuk menguji atau mengetest API's yang dibuat.
 
 setelah prasyarat terpenuhi, selanjutnya anda bisa memulai membaca dokumentasi berikut ini:
-- [bagaimana menginstall composer](https://google.com)
-- [bagaimana cara menginstall lumen](https://google.com)
-- [bagaimana mengkonfigurasi file .env](https://google.com) 
-- [bagaimana membuat controller](https://google.com)
-- [bagaimana membuat model](https://google.com)
-- [bagaimana membuat database](https://google.com)
-- [bagaimana membuat tabel menggunakan proses migration](https://google.com)
-- [bagaimana menkonfigurasi routes](https://google.com)
+- [introduction](./docs/introduction.md)
+- [bagaimana menginstall composer](./docs/install-composer.md)
+- [bagaimana cara menginstall lumen](./docs/install-lumen.md)
+- [bagaimana mengkonfigurasi file .env](./docs/konfigurasi-env.md) 
+- [bagaimana membuat controller](./docs/membuat-controller.md)
+- [bagaimana membuat model](./docs/membuat-model.md)
+- [bagaimana membuat database](./docs/membuat-database.md)
+- [bagaimana membuat tabel menggunakan proses migration](./docs/membuat-tabel-migration.md)
+- [bagaimana menkonfigurasi routes](./docs/konfigurasi-routes.md)
+
+Terima kasih.
