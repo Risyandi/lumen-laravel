@@ -4,4 +4,4 @@
 a. Penginstall an menggunakan atau mendownload windows installer
 b. Penginstall an menggunakan command line
 c. Penginstall an Menggunakan cara manual 
-Jika sudah ikuti cara penginstall an nya, anda bisa melakukan langkah selanjutnya adalah [menginstall lumen](./docs/install-lumen.md)
+Jika sudah ikuti cara penginstall an nya, anda bisa melakukan langkah selanjutnya adalah [menginstall lumen](./install-lumen.md)
