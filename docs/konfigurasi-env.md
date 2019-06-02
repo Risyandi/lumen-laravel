@@ -6,8 +6,8 @@
 ```php
     $app->withFacades();
     $app->withEloquent();
-```
-	Dan pada bagian Register Service Providers
+```  
+Dan pada bagian Register Service Providers
 
 ![configuration2](./images/config-2.png)
 
