@@ -18,4 +18,4 @@ Dan pada bagian Register Service Providers, juga di ubah menjadi berikut ini
     $app->register(App\Providers\AuthServiceProvider::class);
     $app->register(App\Providers\EventServiceProvider::class);
 ```  
-itulah beberapa bagian yang dirubah untuk konfigurasi di lumen.
+itulah beberapa bagian yang dirubah untuk konfigurasi di lumen.  selanjutnya bagaimana membuat [controller](./membuat-controller.md) dilumen.
