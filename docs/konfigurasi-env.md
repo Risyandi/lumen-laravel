@@ -1,4 +1,5 @@
 # Konfigurasi file .env
+Ini adalah beberapa langkah-langkah yang bisa kalian lakukan ketika ingin mengkonfigurasi di lumen : 
 - Buka file *.env* dan edit file tersebut dengan mengubah bagian : `CACHE_DRIVER`, menjadi `CACHE_DRIVER= file`
 - Buka bootstrap dan cari file *app.php*, uncomment bagian ini : 
 ![configuration1](./images/config-1.png)  
