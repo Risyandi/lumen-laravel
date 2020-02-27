@@ -11,16 +11,25 @@
 |
 */
 
-/* 
-* default routes    
-*/
+/** routes for index */
 $app->get('/', function () use ($app) {
   return $app->version();
 });
 
-/** routes yang dipakai untuk API's */
-$app->get('/apilumen', 'apiLumenController@index');
-$app->get('/apilumen/{id}', 'apiLumenController@show');
-$app->post('/apilumen', 'apiLumenController@store');
-$app->put('/apilumen/{id}', 'apiLumenController@update');
-$app->delete('/apilumen/{id}', 'apiLumenController@destroy');
+/** routes for apilumen */
+$app->group(['prefix' => 'api'], function () use ($app) {
+  $app->get('apilumen', 'apiLumenController@showAll');
+  $app->get('apilumen/{id}', 'apiLumenController@showOne');
+  $app->post('apilumen', 'apiLumenController@createOne');
+  $app->put('apilumen/{id}', 'apiLumenController@updateOne');
+  $app->delete('apilumen/{id}', 'apiLumenController@deleteOne');
+});
+
+/** routes for authors */
+$app->group(['prefix' => 'v2'], function () use ($app) {
+  $app->get('authors', ['uses' => 'AuthorController@showAll']);
+  $app->get('authors/{id}', ['uses' => 'AuthorController@showOne']);
+  $app->post('authors', ['uses' => 'AuthorController@createOne']);
+  $app->delete('authors/{id}', ['uses' => 'AuthorController@deleteOne']);
+  $app->put('authors/{id}', ['uses' => 'AuthorController@updateOne']);
+});
