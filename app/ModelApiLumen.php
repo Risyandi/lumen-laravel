@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class ModelApiLumen extends Model
 {
-    // nama table yang dibuat dengan migration
+    /** Your name table in database */
     protected $table = 'apilumen';
 }
